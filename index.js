@@ -10,10 +10,10 @@ app.use(express.urlencoded({
 app.use(express.json())
 
 const conn = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'chat',
+    host: 'bkl0irxpgcraou1tf4tv-mysql.services.clever-cloud.com',
+    user: 'u2sswf5zzfbc2o9o',
+    password: 'xtCoPQY9m3j6PF5TtTes',
+    database: 'bkl0irxpgcraou1tf4tv',
 })
 
 app.listen(port, (err)=>{
